@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assalaam.linearlayoutsederhana.id.relativelayoutsederhana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RelativeLayoutSederhana"
+            android:label="RelativeLayoutSederhana" />
+        <activity
+            android:name=".ClassKeDua"
+            android:label="ClassKeDua" />
+        <activity
+            android:name=".LayoutTable"
+            android:label="LayoutTable" />
+        <activity
+            android:name=".LinearLayoutSederhana"
+            android:label="LinearLayoutSederhana" />
+        <activity android:name=".ImageAndroid" />
+        <activity android:name=".AutoComplete" />
+        <activity android:name=".DialogBox" />
+        <activity android:name=".Picker" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".CallActivity2" />
+        <activity android:name=".checkBox"></activity>
+        <activity android:name=".radioButton">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".selectionWidget">
+
+        </activity>
+    </application>
+
+</manifest>
