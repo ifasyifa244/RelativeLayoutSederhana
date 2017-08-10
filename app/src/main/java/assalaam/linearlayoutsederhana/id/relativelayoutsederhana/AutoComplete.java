@@ -27,30 +27,19 @@ public class AutoComplete extends AppCompatActivity implements TextWatcher {
                 android.R.layout.simple_dropdown_item_1line,item));
     }
 
-    public void onTextChange(CharSequence s,int start, int before, int count){
-       hasil.setText(edit.getText());
-    }
 
-    public void beforeTextChange(CharSequence s,int start, int count, int after){
-
-    }
-
-    public void afterTextChange(Editable s){
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
     }
 
     @Override
-    public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+    public void onTextChanged(CharSequence s, int start, int count, int after) {
 
     }
 
     @Override
-    public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-    }
-
-    @Override
-    public void afterTextChanged(Editable editable) {
+    public void afterTextChanged(Editable s) {
 
     }
 }

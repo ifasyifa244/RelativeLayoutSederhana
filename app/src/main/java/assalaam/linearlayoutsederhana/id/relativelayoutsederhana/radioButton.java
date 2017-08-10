@@ -22,7 +22,7 @@ public class radioButton extends AppCompatActivity implements RadioGroup.OnCheck
     }
     
     @Override
-    public void onCheckedChanged(RadioGroup radioGroup, int checkId) {
+    public void onCheckedChanged(RadioGroup group, int checkId) {
         switch (checkId){
             case R.id.horizontal:
                 orientation.setOrientation(LinearLayout.HORIZONTAL);
@@ -30,13 +30,13 @@ public class radioButton extends AppCompatActivity implements RadioGroup.OnCheck
             case R.id.vertical:
                 orientation.setOrientation(LinearLayout.VERTICAL);
             case R.id.kiri:
-                orientation.setGravity(Gravity.LEFT);
+                gravity.setGravity(Gravity.LEFT);
                 break;
             case R.id.kanan:
-                orientation.setGravity(Gravity.RIGHT);
+                gravity.setGravity(Gravity.RIGHT);
                 break;
             case R.id.tengah:
-                orientation.setGravity(Gravity.CENTER);
+                gravity.setGravity(Gravity.CENTER);
         }
     }
 }
